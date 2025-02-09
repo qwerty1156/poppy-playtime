@@ -1,0 +1,207 @@
+
+body{
+	background-color: #231869;
+	color: white;
+  font-family: "Philosopher", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+h1{
+	font-size: 4vw;
+	text-align: center;
+	margin-top: 17vh;
+	text-shadow: 0 0 1vw crimson;
+	transition: 0.5s;
+	transition-duration: 0.5s;
+}
+h1:hover{
+	font-size: 4.5vw;
+	text-shadow: 0 0 1vw dodgerblue;
+}
+h2{
+	text-align: center;
+	text-shadow: 0 0 1vw dodgerblue;
+	margin-top: 10vh;
+	font-size: 3vw;
+	transition: 0.5s;
+}
+h2:hover{
+	font-size: 3.5vw;
+	text-shadow: 0 0 1vw red;
+}
+header{
+	width: 100%;
+	height: 10vh;
+	background-color: #b81414;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.himg{
+	width: 10vw;
+	height: 10vh;
+	margin-left: 4vw;
+	transition: 5s;
+}
+.himg:hover{
+	transform: rotateY(15000000000000000deg);
+}
+nav{
+	font-size: 2vw;
+	margin-top: -8vh;
+	margin-right: 4vw;
+	display: flex;
+	justify-content: flex-end;
+}
+a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 0 0 1vh black;
+}
+nav a{
+	transition: 0.5s;
+	transition-duration: 0.5s;
+}
+nav a:hover{
+	text-shadow: 0 1vh 1vh navy;
+	font-size: 2.3vw;
+}
+.ha1{
+	margin-right: 3vw;
+}
+.ha2{
+	margin-right: 3vw;
+}
+.slider img{
+	width: 70%;
+	height: 80vh;
+	display: flex;
+	margin-left: 15vw;
+	margin-top: 10vh;
+	border-radius: 2vw;
+}
+.prev , .next{
+	position: absolute;
+    width: auto;
+    margin-top: 56vh;
+    padding: 16px;
+    top: 150px;
+    background-color: #274d56;
+    opacity: 70%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+}
+.prev:hover, 
+.next:hover {
+    background-color: #274d56;
+    opacity: 90%;
+}
+.prev{
+	border-radius: 3px 0 0 3px;
+	margin-left: 13vw;
+}
+.next{
+	right: 0;
+    border-radius: 0 3px 3px 0;
+    margin-right: 13vw;
+}
+.character{
+	border: 0.5vw solid white;
+	border-radius: 2.3vw;
+	width: 40%;
+	margin-top: 15vh;
+	font-size: 3vh;
+	margin-left: 4vw;
+}
+.character img{
+	width: 100%;
+	height: 50vh;
+	border-radius: 2vw;
+}
+.character1{
+	border: 0.5vw solid white;
+	border-radius: 2.3vw;
+	width: 40%;
+	margin-top: 15vh;
+	font-size: 3vh;
+	float: right;
+	margin-top: -113vh;
+	margin-right: 4vw;
+}
+.character1 img{
+	width: 100%;
+	height: 50vh;
+	border-radius: 2vw;
+}
+.character2{
+	border: 0.5vw solid white;
+	border-radius: 2.3vw;
+	width: 40%;
+	margin-top: 15vh;
+	font-size: 3vh;
+	float: right;
+	margin-top: -117vh;
+	margin-right: 4vw;
+}
+.character2 img{
+	width: 100%;
+	height: 50vh;
+	border-radius: 2vw;
+}
+.oigre p{
+	font-size: 3vh;
+	text-align: center;
+	text-shadow: 0 0 1vh black;
+}
+p{
+	text-shadow: 0 0 1vh black;
+	transition: 0.5s;
+}
+p:hover{
+	text-shadow: 0 1vh 1vh blueviolet;
+}
+#developers{
+	text-align: center;
+	font-size: 3vh;
+}
+h3{
+	text-shadow: 0 0 1vh cyan;
+	transition: 0.5s;
+}
+h3:hover{
+	text-shadow: 0 0 1vw red;
+}
+footer{
+	width: 100%;
+	height: 20vh;
+	background-color: #b81414;
+	z-index: 1;
+	margin-right: 10vw;
+	position: absolute;
+	top: 580vh;
+	left: 0;
+}
+footer img{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 1000vw;
+	float: right;
+	padding: 2vw;
+}
+.fimg{
+	width: 11vw;
+	height: 11vh;
+	margin-left: 4vw;
+	float: left;
+	transition: 0.5s;
+}
+.fimg:hover{
+	transform: rotate(15000000000deg);
+	margin-left: 100vw;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=DotGothic16&family=Great+Vibes&family=LXGW+WenKai+Mono+TC&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Stalinist+One&family=Tiny5&family=Train+One&display=swap" rel="stylesheet">
+	<title>Poppy Playtime</title>
+</head>
+<body>
+	<header>
+		<a href="#home"><img class="himg" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Poppy_Playtime_Logo.png" alt="logo"></a>
+		<nav>
+			<a class="ha1" href="">О игре</a>
+			<a class="ha2" href="">Персонажи</a>
+			<a href="">Разработчики</a>
+		</nav>
+	</header>
+
+	<main>
+		<h1>Разбор Poppy Playtime</h1>
+		<div class="slider">
+			<div class="slider_img">
+				<img src="https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000075091/266a2c89eff8ee813d172a684eae776c00d950d69bc99926064ed2cb5b527bdd" alt="chapter 1">
+			</div>
+			
+			<div class="slider_img">
+				<img src="https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000078463/915dbdeee317f55c0fc7ddbd36083794fce2852a5825d999ccea0e91d8c44306" alt="chapter 2">
+			</div>
+
+			<div class="slider_img">
+				<img src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000080061/84d905b10cdc77d6c0e034b2047c0cadbd58c7dd5c6b3661057ea71b225aad20" alt="chapter 3">
+			</div>
+
+			<div class="slider_img">
+				<img src="https://cdnb.artstation.com/p/assets/images/images/081/779/569/large/muh-abib-poster-poppy-playtime-yoanogi-2.jpg?1731211785" alt="chapter 4">
+			</div>
+		
+
+		<a class="prev" onclick="plusSlides(-1)">❮</a> 
+      <a class="next" onclick="plusSlides(1)">❯</a>
+		</div>
+
+		<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("slider_img");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+  }
+</script>
+	
+	<div class="oigre">
+		<h2>Об Игре</h2>
+		<p>Poppy Playtime – описание игры
+
+Жанр: Хоррор, Головоломка, Выживание
+Разработчик: MOB Entertainment
+Платформы: PC, PlayStation, Xbox, Mobile
+Дата выхода: 12 октября 2021 года (первая глава)
+
+ОПИСАНИЕ
+Poppy Playtime – это захватывающая инди-хоррор-игра с элементами головоломки, в которой игрок оказывается на заброшенной фабрике игрушек Playtime Co.. Некогда процветающее предприятие стало зловещим и пустым местом после загадочного исчезновения всех сотрудников. Спустя 10 лет главный герой получает таинственное письмо и отправляется на фабрику, чтобы раскрыть ее темные тайны.
+
+ГЕЙМПЛЕЙ
+Игрок исследует фабрику, разгадывает головоломки и сталкивается с жуткими ожившими игрушками. Главным инструментом является GrabPack – устройство с длинными механическими руками, позволяющее взаимодействовать с окружающим миром, проводить электричество и перемещать предметы.
+
+Каждая глава предлагает новых антагонистов, мрачные зоны для исследования и сложные задачи. Среди самых известных монстров – Хагги Вагги, Мамочка Длинные Ножки, Боксибу и Котопчельник.
+
+КЛЮЧЕВЫЕ ОСОБЕННОСТИ
+Напряженный хоррор с атмосферой заброшенной фабрики.
+Интерактивные головоломки и загадки.
+Уникальное устройство GrabPack для взаимодействия с миром.
+Жуткие антагонисты – ожившие игрушки.
+Глубокий лор, раскрывающий тайны Playtime Co.</p>
+	</div>
+		<div id="characters">
+			<h2>Персонажи</h2>
+			<div class="characters">
+				<div class="character">
+				<img src="https://static.wikia.nocookie.net/poppy-playtime/images/e/e3/Doye.png/revision/latest?cb=20250131082728&path-prefix=ru" alt="dewey">
+				<h3>Доуи (Dewey)</h3>
+				<p>Описание: Доуи – один из экспериментальных персонажей Playtime Co. Он представляет собой гуманоидную игрушку с доброжелательной внешностью, но со скрытыми, пугающими элементами. В его глазах иногда можно заметить странный красный блеск, а движения кажутся слишком резкими для мягкой игрушки. <br> <br>
+Роль в истории: Доуи был создан как один из ранних прототипов разумных игрушек, но из-за ошибок в разработке его поведение стало непредсказуемым. <br> <br>
+Особенности: Обладает способностью быстро передвигаться в темноте и внезапно исчезать из поля зрения игрока.</p>
+		</div>
+			<div class="character1">
+			<img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/05/Game-Theory-Poppy-Playtime-Chapter-2-Claw-Monster.jpg" alt="poppy">
+				<h3>Поппи (Poppy)</h3>
+				<p>Описание: Поппи – первая кукла с искусственным интеллектом, созданная Playtime Co. Она выглядит как обычная винтажная кукла с красными волосами, большими глазами и синим платьем, но ее интеллект и поведение выходят за рамки обычных игрушек. <br> <br>
+Роль в истории: Игрушка которая может разговаривать и вести себя, как настоящий ребенок. Однако в ходе экспериментов с ней случилось нечто странное, и теперь она кажется слишком разумной для простой игрушки. <br> <br>
+Особенности: Может говорить и взаимодействовать с игроком, иногда помогая, но ее истинные намерения остаются загадкой.</p>
+			</div>
+			<div class="character">
+			<img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/06/The-Prototype-VHS-Image-1.jpg" alt="Prototype">
+				<h3>Прототип (The Prototype, Эксперимент 1006)</h3>
+				<p>Описание: Загадочное существо, являющееся результатом зловещих экспериментов Playtime Co. Это механизированное существо с длинной металлической рукой и страшными когтями. Его внешний вид напоминает помесь биологического организма и робота. <br> <br>
+Роль в истории: Эксперимент 1006 считался самым продвинутым и успешным, но оказался слишком опасным. Он обладает высоким интеллектом и способностью собирать и использовать части других игрушек, чтобы восстановить себя. <br> <br>
+Особенности: Обладает невероятной силой, скоростью и хитростью. В тени он наблюдает за игроком, анализируя его действия.</p>
+			</div>
+			<div class="character2">
+			<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTEhIWFRUVFRUWFRgVGBUVFRUVFRUWFxUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLi8BCgoKDg0OFxAPFSsdHR0tLS0vKy0tNysrLSstKysrLS83Mi8tLS0tLS0tLSstKy0rKysrLSstLS0rKy0tKy0rK//AABEIAKgBLAMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAHAAMFBgECBAj/xABAEAABAwIDBgQCCAQGAQUAAAABAAIDBBESITEFBgdBUWETInGBMpEUI0JSU3KhsTNDYvAWFyTB0fHhFTRzgqL/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQIDBAX/xAAnEQEBAAIBBAEDBAMAAAAAAAAAAQIRAwQSITFBIjJRE4GRwQVhcf/aAAwDAQACEQMRAD8AEVAXhwGoupDa8TnfDrayLjtyKTVrLFZk3JpNcJv6qeQAnxEOsdUc+GFPhowepug9vDAGVMjBo1xAVj2Fv7PTRtjwBzRkEBsWUNqXipH/ADIiPTNTNJxEon5Fxae4Ko5OLVThpA37xQUARG4p7einEbYXhwGZ7IdNQPQRXKl6XZlcfgbIAelwuCmOEtPVw/deitlMb4MZsPgH7IA7u9sSqhmEzoXnDn7qG2zDJJK97mFpLjdeh8IULtHd2B4e5zMyCfdANtiy0jaWRsjh4lvL1HoqVKOYNwVnakWGd7ejiAmoRcEfJBqWc9CpKgJAOLXkog3TvjEAZoLtsDfmanbgwhzR81bKLiVCf4jC1B5tV1CbllvpogL22N8WVAbHHkC5uZ5Z309lH7+1xFOB4+Muywt0AQvbIRoSnZKpzhYm9kDLl0U+iaY4lOwVFsiLoHaGC8lr29VZdmbwT0kmTg4DI25hViSr+62ylt3/AAHA+MHE8rIq81HE45NZDd3fRDXbdW+aZ0jxYuOgVpFNSk+WOQnlYFcdTuxK/OOJ5B6hTaKqAV37I/jMxAOFwCDofVdVfu/NE3HJG5rf6lHQ5EG+hCoL7NiBrb3jhB+6bH5LWLZsQvZ80xPQnDdclDvTs5kbS8lz8Ive5zWlVxPgYLQxH9kA62yzw53tIw2ccug5BSO61dSxyF1SzG3korbe0vpEzpSLFxvZR+PogJW0+IkbW+HSxhg7C2SiWb/PY1zY4wC4eZx1dfqqlDRSv+GNx9AtqigkiI8Vhbfr0Qa1T8Ti46nNc7QpNzYOpUfJYOyzF0HondFv+ki/KF0VexKeRxc+JpcdTZD/AGLxKgihZGWOJaLFdn+asH4T0BFWr9D6FR//AK7TfjM+a0k2/TWP1rNDz7IALvWf9XN+crt3M2U2pqGRvvhIJKjNvyh1TK4G4LjmrjwhgxVLnfdaVKLFWcLoTmyQhQNbwwnHwODvVF9JUACu3MrGfyiR2UJLQvY4NewtN+YsvTRHZCfjDKGyw2ABAvkNUFAfkbdCF6H3efemiP8AQP2XnGepLiTpdWuh3/q4o2saW2aLBAdE3P8ACfRA+TiTXH7TR7LiqN+q1wIMtroGamk8SukbyLnH5K5VW5MDY4ZGkjGQHe6qW6DzJVFzznhcST1Rcc0PoRYi7Wgj1GaAe/4Ia6qMDn4bi7CeYVa3o2Z9GlMN74UWNt0zpaeKpi/iRAHLmBqEKd7q/wAecyWtcZ+qCDSSWQgQCSdabagH++ozWfDv8PS+f95rp+ndJsyCtvEK1ISsudmlbeIVduFcLX1NngEW5qjqwbl7xCinEjoy9pycAbOHcXyPp+qA/wAdJGNGNHsE9hChNmb3UU7cUc7e7XeVzfzNOn7d03t7eWGKB7mSNLrGwBCCg8U9v+K/6PHozNxHVDe6uVPHGaSeokcDLI7yi+eqppQK62ay60T0SAm7o8PqeeBkz3El2duSuNDuVRx2tED6qM4U1eOkDPuFXUIOWn2dEz4Y2j0AQ64x0QwxyAWzsUT1TuKVJjoifum6AL7M2e+Z2FmtlZ6Dh7UyNDwBYqK3QeRNYamw+a9AUMQbG1vQBAJGcNZ+g+a3/wAtZujfmjAldB5i+levzWPpPqmywLBYgw85oncHCwGUucAbZXNihhhKeimc3Nri09iQor061wOhWy850u8dWz4Z3e5upmk4jVzNXB3qFUHJBPi3PirA3k1qk6XivIP4kIPoqftragq6oykWDrZdEEIWpIv7obqU08JfIy9zknto8LqZ38NxaUAZSsr5tThlUsBMZDwPmqhtDZskDsMjS0oM7PJabjUqfhbWtjBaJMJGVr2so3YMHiSNb3/ZHLdiMGmYCMgLadFFBqHeKqhGDG5o6EclX66XE8n+7o5b1bDZ/HbG0lrXAi3bI2+SB7mNvhN8VwL3yFsrd8+fZJEci3aFtLCWktORCltlbJMgLgWloHmJP8PuW6n2Xo4OLvySox9ltHYWJAPZWDZ1B570zPpMjSbh8INOWnK9pHAk52zaLHMZgFSj5a2BpBqKSIEBpYz6LjAvexa1mLmV7ZhrJjfhT3RE3LRdrRfLkD19ymzALa59Dz7q01m2Kprfq5WyB4xPvFE9pcSWk2fHb7Nsuir813uubNd0whg9mtAaPYLWfDMr6Jk4JIyMiLLRd9QwhvmOumWVudun/lMeADoc+9gPmvHydNljfDUyMB1tPmnPpBtYm6bc2ywvNZpo4ZSmykFObJ3anqWY4WYgDY2Oh7qCCT1Oc1Y/8DVn4J+aj9q7vz07cUsZaDzQXHhVtdkTpGPcGg55q/VW+NGzWYe2a88h5GhKwXX1KA2VvE2lb8ILlUd5OIbqiN0TWWaVQUkE/uYL1Uf5gvQrNF5y3ZqmxTse7RrgT6Iyx7+0XOS3sgtKSrY34ovxQl/jmi/FCAdP2LC7lZcM+7A+y5TaQcgqdRu7KNM1wTUcjMiw/JEBj1q94OoCKHJA6WKaBVm3sawAYQAeyq6I3xp2kzeFzrpoHhr2uOgIJ9kV6G3RpvDpYxzLb/NTCp2xt+6RzWtLsNgBmrJTbUhkHkkafcIjsKCnFSoxVmH7rf8AZGl77Am+guvO29dZ4tXM7+qw9kExw0pMdQTbRpP6Iubqn6gDoSP1Qr4c7VipnuMt/MMir9urt2D61viADGS25tkUFg23UBlPM+4GGKR1zoCGG362XmhFLf3f9rr09OGyRm7ZXOvhfcEFg0OVwcQOrRyuCLUD8Xmd5ibczqe2qm9l7NmEjnNjLsDfEtpiYcrt+8PRREJsLXtfI307E9PVXXcpr45XtcT4eB0Zs7LG4XDmkfZNjncZkL6vTyYY+Z5Yv/Vj4fbsP2iJXm0bAfDe4tD3Yw5rsMbSbXwk+YjI21zAIsHCvZosZInSuta73HTP7IsBqeSj+G9VHHUzQg5zRtmYBfAcHlkLeQJxsd1Id2Vq3xrZIqZ7orYrXzFxYZkW76e68/LnyXk7cbqVJrW6gp+HmzWloaXxOzDcMpAALrgBp8vxHpqe6pm/fDiSOAyRg1GAXxMAZMGDXEweWTrcAHoq5Qbdr6yqjaKkxFxMbWktbFEB5rBuHDYDQ2vkihw63ilkdJTytAfDIWPIxYXkEgPaD8INr205jVd+Th5eHHu7t69xjHKZ2wBKSjZPI2PE8gg4cLcbgLEg4QAXaZgZ62Wh2TKGuGRLSLsIcHYLXbI0kWLToiRxa3Q+iVDa2kBYJn2ccsEUx+0Ljyh18jyINrXC4ZnsMbHSxjG172vY0kBzSLzweXNzXN+uZyBb0yXb9aZYzOTxST3NhrPACRY2ubEO1bkMyehue+RXLU0+FxF//PoFN7b2cIKiWF5zY4YXNuWOjcA5r8882lp73UXtOUg+GH4mAhwtpcjW3XkuHU48fZ3T5bxt3pwIhcGKtwqpIr+R0JcRn8THNAPycf0Q+si7wa2RgikqXDOQ4GfkbqR6n9gvmOgjqgcXz/p2jq5EC6HXGF31UY7qUCAjupLZGwJ6n+C3FnZRrhmitwZl8kre6or1Jwzq3fFZvqpam4Tv+3KPZFhZQDR3C+NjXESEkDRDreCgbE/C3Tn1BXo9B/ivs9kczXNbbGDf1QUKko5JDhjYXHoFNxbkVzhcQn3NlK8K6oMq8J+0LI3AoBIYym8JXPBvRA7UELtj2hTv0eAg1usELqaxjvhcCsmlKCl72P8AM0KvgKa3rP11ugTGyqfE9jbauA/VBHOjI1BHslovQ0e69M+JjXxNJwi+Sr+1eGNO+5jJYf0QB2OWykKTahZzI9Cu7endSSjIxG4OirripoXOl3plwlonIuLZqu19ILl2MEnPvmowJ5j1KrIe4c1qal1tdViWS6wyMnIAk9BmT6BWI0ukEiFhUdEUxH99VPbt7SZFK1xF2j42Otge3na+QdzF+YVZTsUlj1HRezh6q4/Tl6Yyx2J5246KeB8RbdshkpXssGSRPvjY8OzAF3NsSMPnBIysZNm7dh2lTSNic1suC0kTnAuYXDmWnNpBycDbNeaKba7PD8PD5b3Dbm4f+Ix/2HaA8iOV7EO7H2m6nlMjHPjkBNnMtcXOfY+ma9eXHhzSWZeZ8uc+kTpOF1SJCIy0tNnfWOLcBNxhxYPNbEcxc5AZam47m7kyUsxlkle9/wBs38smVmi19GgDMjPlZVTYHF54DY5wJDkC8AtJGYxENyHU6K11HEB9h4VG6QnLKSIN553c4ZKc2XV5Tty1r8sy8cy2sO+mzY6iinikBLSwus0YnXZ5gWjmbgIF7borQB0T8QMbGPcC57WWGKJ78ILozZzgMTbd1ZN6d4Nr1LMAYyGN+REbi1zRkcT5XYQBkPhJvcoYVbnMl8kwEjG4cUBNsh8OIWv3V6Xhywn3S/6W57vptt4nw4HOc10jGmJ/nZIHCPCYnC1y5uB4juMrxHuq1K65J6m+WQz6BP18xc8km5JuToCTqbDILmXh6nOXPU9R3npmMXIv7+iJFBxMEMbImU9msaGtF+QQ/pWC1ymZcivMonf5sH8D9VW9798DW4QWYcKqWIrF1A44Zoh8G57TSM6hDv1Vo4dbUZBVhzzZpFiVYD0kq3NvvRN/mrhn4j0jdCSguSG3GCLyRu7kJ6fihF9iMlVLe3e/6Y1rSA0A37qUQm7FX4VTE+9vMLr0CK2MgHxG6DmF5ox9E66vlP8AMd8ykGtylfsph+xu655NlPCaHHHVPb8LiPddsO3ahuknzUU/I+iyxhOgQOVtS6R5c83KsW48IfVRN73+VlV3MIT9HWSROD2OLXDQqj04EkD9mcSKuPJ5Dx3Vq2ZxSidlKwtPUII3i9VAysZfQXQ0ec1ZN89qiqqS9h8ugVx2bwzhlhY/GQ5zQSgFIC3iaToCbZ5Dkrbvdu5TUXl8fHKdGDMj8x5KF3a25JSTCWOx5OaQCHN5tN1ccd3VIj3PBBuCXEizidANQRbPln2W8MhYQ5ji1wFrjXva3b/dFDbe5cG0KVtdsxgY/WeAHLu5g5W5hDWVgifheA8tJBaD5btNsyNUzxuN1WtaYdS2Y17zkcmNyxEc3Wtk3uVwlqdmmc43NvbLLkE1iUZarKSSDIcnoqkjLI5WF87d29CmElvHO4+qaT2zttiMFphjkafsytBIyzLZG4XNztkCL53UnS7xxNcDHT+G4W0ne5g5XwyNebdrlU662a4r1YdZlPbneOVcq2aF3mnri++jIY5pQeuUxia32J9FE7RqaYNtTxOFiLSSyYpD+VrGtY30OI91FCe9uVuaakdcldeXqfp8Uxw0eoaR00jYwQHPNruNhc9SpBm61WZ/AELsYcGk2dhF+ZJGQtn6IncPdzYmUwlqIg6SdpuHi4ZE4ZMsdCRmfW3JXaho44WCOJgYwcm5BfNdFcrN1KaKkwBgJZEBiI8ziB8R7nX3QMrm2cR6r0rtFt4njq0/svOG2I7SO9T+6fI4bJWRQ3L3FgngbNITc8lb6bcWiZ/Lv6oAQAXaA/JOsp3cmH2BXoOHdulbpC35LpbsqAaRN+QU0POU8Tm/E0gdwmPE7Iv8VtmsFMHNaBYjQIQvGQTStyOau+xuHMk8LZRKBiF7WVI5L0FuYLUcX5QpiB8/hVN+K1MHhXUfiN/VGJJa0gOvo39AUxLTusfKdFGtq5Ro5Ot2rKNc0FXlb9YR3KkIYvLkP+1x3vIT3up3ZcGOSJvV4Cg0m3Vqw0OMRIIuLKJnpHNyewj1BXpKCOzGjoAP0XNV7IgkFnxtN+yo82uiWfBKN20OHlJJctGA9lSN69y/ocfiumGC9gDm5xOgA5mwPyUFRhZYXPZXPa3ESQQNgpQY7NDXSn4+4jH2fza9Laqj4ySmqg55LrjjqbrXw0leSSSSScySbkk8yVq0rCy1Zl8si9wVqZohJIWYqdxwOOoDraEdCqdxD3WNFVYYgXU8/wBZTHNxwHMsJ1LmnLuLHmiPwenIpgzKziQ5haRiB7kWJtc97WuLq8SbCY+GSnc44YnmSB4sXCM3Jbc8wQ5vsF6+X67O/wAXx/Dt2yybeX49lzu0hkP/ANHfvZZn2TOwXdC8C174XWsdDfRETeIS08nmkLontD45GuOCWMnIgX15EclWoa+UDKZ47FxLfZpyX0uL/CzlkvHyy7mzLjxnq7VJJWyrr4JfLUxAHQTwgNkbp5nsybKOoyNtCNVX9rUDoJXxPIJabXb8LgQC17SfsuaQR2K+R1PTZ8GfZk4uJZSWF5wkkkkGbq1cOt3fpdUMYvFFZ8l9HZ+VnudewVVCs27m3HwRljJMF3XNtTlqgP5P99Oy1Mg6j5hBKTeiU61D/Zcsm8Lucsh91nuBwqqlgabvboeYXnreMDxXW0xO/ddr9tDnjPqSonaFW19sLbK72DLwrmxUQ7FXJD3g7PeB7ehRDVGFlYSQVniJBjo5O2aArjkvRW9ceKllH9JXnSQWNu5Qbj4UVN3uItNFAyNwddoA0QqZoshZUbY+JFGdSQnhxAovxEDLpX7K7QhK7qVt9JcPtH5or1HC5n2JT7hDbefZJppzETeyaHHSZuurpuZTY6yIfdBKqWyI7lETh1EPpTySBhaALlT5UT0llYWkJDPjSy/0QXzvPly/lZ/31KJqG3F8eejP/wA/z+psunHN5SLPYc7RhwMaBbzNvcHMnRw9svmouQqUrpMQuPsixvb1BA5aqJcryVay1t1uQAOp/ZNtcQsErG5plbdxN6HUkvnd9WW21vhcL+G4DnZ2G46It0e98fgseJAS50zngG/hjH4hYTzLQ9jSet154Clp9suMXhjK7Q0kZXaOR6nPM88ui9fByT3yXenTDkuJ3be0xPJJhJazG9zGXOAYjclrTk0nXJRsVS4ZXyXME9BGXENa0uc7IBoJJPYDUpxdRnhZcLpzrrDC8E8upXPtGrdK/E43IaxgOnlYwMb+jQpvbmzJ4KOAS00kOJ8ji6Ros51hax+JhwgXY71GqrRWOp6i82tzzBhJJJeUZCRSSQYTkJz9U2stQdllmytGydxqmojZKwtwvAIzzt/d/kpSPhhUn4pGhY7V2oLo00ynJRNi4XSc5h8ltV8M8EbneMSQCdOisliIzhltyKmMjZnWB0V8l38oh/Mv6IDVAs4jobfJKNt+S0DZNxKoxoSfRR9RxUh+zG4oUtgW4gWdi97V4mulY5jYrBwI1Q7kNySeea7WUwP/AEuiGjaSBY587JuqjGsWQz9cl0Twlri08itYR5m/mH7rO/ItFLw/qnsa9obZwuFk8Paz7g+aMeyG2hj/ACN/Zda3pCQG4mn/AFz0YIt6aR2k7fnZBzfcieskdGQWga3VEXseoazMro+mkPL2PLSehsog05C0II5KaNrlQb4VkekuIdHKw0XEqRv8SIHuEL45Cn21dualtgNNDxCpX5Ouw91B8StpQztpvDeHWMpNuVwz9/8AZDdk4PRKeQYQW8nLrw56yaxuqaqrhx6FcZaut1TfJw+SZkGWXUf7rrySWbhkYSWUrLgySSVkkGQuzZm0JKeRssTsL23wnWyZpZcD2uwtfhcCWvF2uAPwuAzsdFo8gkkC2eQ1AudLnPstS2eYCpulvZ/6hFNs2rawvqGvEDy0Nb42E+Hito4OsQ7XkbhC6upHxPdFI0sexxa9p1DhkQntm1b4XtkY6zmkEHuDcK9cSKdlVS02047Y3tbFVWFj4jQAx5Hthv8AlXTPjvZ3rrwG6SyQsLghJJJIEshYSQGng5tPxKR8JN3QyGw/ok8w/wD0JPmFfUFeDdVhrXMJt4kTh6lpDv8AYo1IEma5l43j+kp3EOq0lkbhIJGh59kHmracdpnj+o/uund6hEs7IybB5ssbwMtUyW0xn910btOw1MR/rClBWp+HNKNS4qQg3Io2/wAu/qrE06egWyoiIt26VukLfkoXfrZsbKfExgbhcMwLcwrgoPfWO9JJ2AKAIbZZaU91y0o+sYOrm/uu/bo84PVoXDROAljJNhjaufyr0bs9tomflH7J9R1BtSAsbaVug5rrFZH99vzC6I8zCVdVI7J3dR67ocmqa8jdsY5rV7FviScV20wb8NMTt7LtjYSQBqVM7P3eL3txnXroB1KnZu+F2rtJQvk+EZKUm2UGRnEQCbEe1/8AlXKsiihZhjLB1c5zWj9VW56VsmJxnjf4bHPLWYyMLbXJdbDqRz58131hxz81ZVfGz5S3G2N7m2JLmtcRYam4GndMSCzR3JPysP8AlWSDb1XH5I5S0yNwnMNGHCbNJ5NFzkoGrjOFhJ5Wt0zvf3zXK3xqK5AFI0mzPM0TExh2hI1PQ/d909siixguZfGzzaXAAsDdvTMZqRZUYz4cgs62YOYcPvNPNchEbW2S+I3Iuzkf+VHAK2xSviGFwMkXTV7B2+83somv2c1pD4yDG45WOmYy/wC1Z7HDGAA9p1tke4UnsurhkjMFR5QLuikaPNG62h+8w2Fx7hcVDCHTFnXGPkCQf0XO02Gn/K9M47lJ+BghXLcSrge2WjmyFQMDXWLvMfgyGlnWN7Kmlb0tU+N4exxa4G4LSQR6ELvuYzV+SXRbSonwyPikFnxuLXDoQuVWTe+tbUiGpxXkezw5h9ovisA93dzS0k9bqtr5+WPbdBJJJLIwkkkg7tjbQfBK2SM2c29j6ixVmO+dQfimd7KmsK6VnJYt8W9RPxSSH0K0dvM06+IfVxUjuHujDVxF8jjcOtYdLq6QbgUTfsE+pSSgNbTwyPDmNw9b53WtACyWM30cP3R5g3WpGaQt90MOJ1CyGpbgaAC3QaJUFSHbdOGNJlboOY6JiXeqkbrMPZAxlaOi3+njoE7l0Mk2/VI37ZPsoTb+/lPJC+NrXEuFghk6sJ0H6BdcWxql/wAMTiPRNo5tqyXwnso5wJyVkG6da4fwT7qL2tsuamIErMJOiiuFviDRzh7lPCeX8R/zKZEpWfFKm6HduUQhqJIgbhriAtCThGSSS2jAk7FJ0wSSWu6pYtOy93ZnsY9gIxNuD1B6KVZu24fxZT7uSSTdXTd2xKRvxyN+d1y19LB4Mop8TnFhb5Wkg87XHoFlJBRJ5y7DfVosfbqnqFniPDLsaXOFy8hjALaucdANVhJagsNJvQaBk0FK2F7n3a6oAc64Ooix6DPWwuoGfaLnWc6xdck8h0BFtDkSfVJJZE47bTIoxZmKVzb5/CL6E9fRQ+yqnzOBzLyfTncpJLWH3Rcfbbd7/wB3H3cf1BUakkvXj9n73+innwODWvI8rrgHkSNUw4pJLPJyXTLQlapJLyVSWSkkoMJJJIMhdN8kklnJYKnB2bySt7okrCSs9JSQv4wwZxu7EJJK30BiCs3SSWFO0r7Oae4XojYNjBG4AfCEklYVIIa8Y6byRP6Ej90klpApBSxJJKK//9k=" alt="doctor">
+				<h3>Доктор (предположительно Эллиот Людвиг)</h3>
+				<p>Описание: Загадочная фигура, связанная с созданием разумных игрушек. Возможно, доктор – это сам Эллиот Людвиг, основатель Playtime Co., или один из главных ученых, работавших над проектами компании.Позже компания превратила его самого в "Игрушку" <br> <br>
+Роль в истории: В записях упоминается как ключевой человек, причастный к экспериментам, приведшим к катастрофическим последствиям. Он может быть либо жертвой своих собственных экспериментов, либо сознательным творцом ужасающих созданий. 
+<br> <br>
+Особенности: Его истинное местоположение и судьба остаются неизвестными, но он может играть важную роль в дальнейших событиях игры.</p>
+	</div>	
+		</div>
+			</div>
+		<div id="developers">
+			<h2>Разработчики</h2>
+			<h3>MOB games</h3>
+			<p>Mob Entertainment (ранее BAD Games, MOB Games) - основная команда разработчиков Poppy Playtime. Компания сотрудничает с EnchantedMOB и ZAMination для озвучивания, музыки и редактирования.</p>
+			<h3>Предыстория</h3>
+			<p>Режиссером Poppy Playtime стал Айзек Кристоферсон, взявший перерыв в своей предыдущей работе в EnchantedMOB. Позже он попросил их помочь ему с его проектом. После 4 месяцев разработки была выпущена первая глава, и она взлетела до небес.</p>
+			<h3>Команда</h3>
+			<p>Игровой директор - Айзек Кристоферсон. Исполнительный продюсер - Зак Беленджер. История - Зак Беленджер, Сет Беленджер, Zachary Preciado, Mihach Preciado и Айзек Кристоферсон. Раскадровка - Уитни Миллер, Madeline Schroeder. Дополнительная история - Малакай Брекенридж и Энди Гилл. Технический директор - Бен Павловиц. Технический дизайнер - Дана Уиллоуби. Технический программист - Ачебе Спенсер. Концепт-художник - Авалон Пресиадо, Тейлор Гесслер, Уитни Миллер, Madeline Schroeder, Jose Pontes. Поверхностный художник - Джеймс "Трейгуй" Пелтер. Графический дизайн - Micah Preciado, Ян Аммон, Авалон Пресиадо, Кейли Хамфри, Уитни Миллер, Madeline Schroeder и Махмуд Нур. Персонажи - Хосе Понтес, Ачебе Спенсер, Уитни Миллер, Меган Джадд. Фальсификация - Энди Гилл, Сет Беленджер, Джеймс "Трейнгуй" Пелтер, Имеда Апциаури. Ведущий маркетинг - Adam Uhlenbrock. Ведущий художник по окружению - Ник Хелтни. Художники-экологи - Сет Джонс, Майкл Коловос, Римо ван де Санде. Анимация - Zachary Preciado, Micah Preciado, Малакай Брекенридж, Скотт Смокер, Айзек Кристоферсон, Ачебе Спенсер , Остан Тодд, Джеймс "Трейнгуй" Пелтер, Элис Смит. Освещение - Мигара Хававардена и Ачебе Спенсер. Музыкальное продюсирование - Zachary Preciado. Аудиотехника - Zachary Preciado и Микаэль Муньос Г. Бета-тестирование - Бравео, Джеймс "Трейнгуй" Пелтер, It'sPetter, Дрейк Вогл, Скотт Смокер и JackTBC. Особая благодарность - Джона Беленджер, Майкл Болдридж, Элайджа Делани, Михаил Березницкий, Сириус, Скай, Верна, Люксия, Galaxy DJx, Yann Peltier и Эндер. Служебная собака - Молли.</p>
+			
+		</div>
+		
+	</main>
+
+	<footer>
+		<div class="social-links">
+			<a href="#home"><img class="fimg" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Poppy_Playtime_Logo.png" alt="logo"></a>
+			<a href=""><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt=""></a>
+			<a href=""><img src="https://cdn-icons-png.flaticon.com/512/5968/5968804.png" alt=""></a>
+			<a href=""><img src="https://st3.depositphotos.com/6736296/33335/v/450/depositphotos_333352716-stock-illustration-tik-tok-logo-editorial-vector.jpg" alt=""></a>
+		</div>
+	</footer>
+</body>
+</html>
